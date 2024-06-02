@@ -1,0 +1,48 @@
+.formContainer {
+    padding: 5vw;
+    background-color: black;
+    font-family: "Proxima";
+    color: white;
+}
+
+.title {
+    line-height: 30px;
+}
+
+.certiContainer {
+    display: flex;
+    font-size: 0.75rem;
+    gap: 15px;
+    margin: 10px 0;
+}
+
+.certiContainer div {
+    display: flex;
+    width: max-content;
+    align-items: center;
+    gap: 5px;
+}
+
+.certi {
+    background-color: rgba(255, 255, 255, 0.14);
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #fafafa;
+}
+
+.rating {
+    color: #f7c852;
+}
+
+.formContainer ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.formContainer li {
+    color: #d2d2d2;
+    display: flex;
+    gap: 10px;
+    line-height: calc(100% + 10px);
+}

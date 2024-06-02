@@ -1,0 +1,47 @@
+.form {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.form p {
+    background-color: #e84d84;
+    text-align: center;
+    padding: 3px;
+}
+
+.form label {
+    display: block;
+    color: #505050;
+    font-family: sans-serif;
+    font-size: 0.75rem;
+    padding: 10px;
+}
+
+.form input {
+    display: block;
+    margin: 0 10px;
+    width: calc(100% - 20px);
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.form select {
+    margin: 0 10px;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid #d9d9d9;
+    width: calc(100% - 20px);
+    color: #bfbfbf;
+    padding: 5px;
+}
+
+.number {
+    display: flex;
+}
+
+.number select {
+    width: min-content;
+    color: black;
+}

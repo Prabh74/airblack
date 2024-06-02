@@ -1,0 +1,15 @@
+.headerContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.headerContainer > p {
+    font-family: "Inter";
+    font-weight: 500;
+    letter-spacing: 2.25px;
+    color: white;
+}

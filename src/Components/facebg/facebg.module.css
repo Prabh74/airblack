@@ -1,0 +1,6 @@
+.facebgContainer {
+    background: black url("/public/Images/header.png") no-repeat;
+    padding: 5vh 5vw;
+    background-size: 150% auto;
+    background-position-x: center;
+}
